@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="FW1">
+      <UniqueIdentifier>{520a8dad-59f4-4d89-8ed6-813b7d75ece9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gordon">
+      <UniqueIdentifier>{4491037c-8873-49d9-965a-a64ee2fb4371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{2e8ddb2b-8f02-4b1b-827c-e9a818f1713c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GMenu.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GDraw.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GESP.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GPlayerManager.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GTools.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1ColorRGBA.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1ColorRGBAInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1DWriteRenderTarget.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1DWriteRenderTargetInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1Factory.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1FactoryInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1FontWrapper.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1FontWrapperInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphAtlas.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphAtlasInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphProvider.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphProviderInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphRenderStates.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphRenderStatesInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphSheet.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphSheetInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphVertexDrawer.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1GlyphVertexDrawerInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1StateSaver.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1TextGeometry.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1TextGeometryInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1TextRenderer.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\CFW1TextRendererInterface.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\FW1FontWrapper.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1_Source\FW1Precompiled.cpp">
+      <Filter>FW1</Filter>
+    </ClCompile>
+    <ClCompile Include="GColor.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GAimbot.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GDirectX.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GOverlay.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GMath.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+    <ClCompile Include="GConsole.cpp">
+      <Filter>Gordon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GMenu.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GDraw.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GESP.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GPlayerManager.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSDK.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GTools.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1ColorRGBA.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1DWriteRenderTarget.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1Factory.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1FontWrapper.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1GlyphAtlas.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1GlyphProvider.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1GlyphRenderStates.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1GlyphSheet.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1GlyphVertexDrawer.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1Object.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1StateSaver.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1TextGeometry.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\CFW1TextRenderer.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\FW1CompileSettings.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\FW1FontWrapper.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1_Source\FW1Precompiled.h">
+      <Filter>FW1</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAimbot.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GDirectX.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GOverlay.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GMath.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GConsole.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+    <ClInclude Include="GColor.h">
+      <Filter>Gordon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
